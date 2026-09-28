@@ -1,0 +1,13 @@
+# unpacked from scene/meshes.7z on each host
+scene/meshes/
+# 1.1 GB Blender source, not needed by Sionna (kept in ~/6grocket/Halle2.xml.zip on the original host)
+scene/Halle2.blend
+__pycache__/
+.ipynb_checkpoints/
+*.npz
+results/**
+!results/.gitkeep
+trajectories/**
+!trajectories/.gitkeep
+# scene is NOT in the repo (6G Rocket Halle2; copy it to each host separately)
+scene/
